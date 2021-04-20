@@ -6,13 +6,13 @@
 
 dna = 'ACAGAGCCAGCAGATATACAGCAGATACTAT' # feel free to change
 
-n = 0 # amount of gc
+GC = 0
 for i in range(len(dna)):
 	if dna[i] == "C" or dna[i] == "G":
-		n += 1
-print(f'{n/len(dna):.2f}')
-
-
+		GC += 1
+print(f'{GC/len(dna):.2f}')
+print('{:.2f}'.format(GC/len(dna)))
+print('%.2f' % (GC/len(dna)))
 
 """
 python3 gc.py
