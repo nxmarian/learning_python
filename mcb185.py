@@ -71,4 +71,4 @@ def orf(seq):
 					break
 		if stop != None:
 			length.sort()
-			length.append((stop - start)/3)
+			length.append((stop - start)//3)
